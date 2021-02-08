@@ -1,0 +1,170 @@
+<%= render "shared/header" ,locals: { sum: @user }  %> 
+<div class='main'>
+
+  <div class='title-contents'>
+    <div class='catch-copy'>
+      <div class='catch-copy-logo'>
+        <%= image_tag("logo-icon2.png", class:"logo-index") %>
+        <p>素敵な宝石を見つけにいきましょう</p>
+      </div>
+    </div>
+    <div class='store-btn'>
+        <%= link_to image_tag("https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2011-09-21&kind=iossoftware&bubble=ios_apps", class:"apple-btn"), "#" %>
+        <%= link_to image_tag("dl-android.png", class:"google-btn"), "#" %>
+    </div>
+  </div>
+
+  <div class='read-contents'>
+      <h2>お知らせ</h2>
+      <ul class="messages">
+          <li class="message">
+            <div class="message-date">2019/10/06</div>
+            <div>【新規のお客さま限定】<b>10％OFF</b>キャンペーン</div>
+          </li>
+          <li class="message">
+            <div class="message-date">2019/10/03</div>
+            <div>うれしい<b>ポイントアップキャンペーン</b></div>
+          </li>
+          <li class="message">
+            <div class="message-date">2019/09/27</div>
+            <div>2020年成人式 ご予約承ります</div>
+          </li>
+          <li class="message">
+            <div class="message-date">2018/10/03</div>
+            <div>うれしい<b>ポイントアップキャンペーンggggggggg</b></div>
+          </li>
+          <li class="message">
+            <div class="message-date">2018/09/27</div>
+            <div>2019年成人式 ご予約承ります</div>
+          </li>
+      </ul>
+  </div>
+
+
+  <div class='items'>
+    <div class='items-contents'>
+      <h2>新着アイテム</h2>
+    </div>
+    <div class="mama">
+    <ul class='item-lists'> 
+        <li class='list'>
+          <%= link_to '#' do %>
+          <%= image_tag "https://tech-master.s3.amazonaws.com/uploads/curriculums/images/Rails1-4/sample.jpg", class: "item-img" %>
+          <div class='item-info'>
+            <h3 class='item-name'>
+              商品を出品してね！
+            </h3>
+            <div class='item-price'>
+              <p>¥ 99999999<br>(税込み)</p>
+              <div class='star-btn'>
+                <%= image_tag "imageimage.png", class:"star-icon" %>
+                <span class='star-count'>0</span>
+              </div>
+            </div>
+          </div>
+          <% end %>
+        </li>
+
+        <li class='list'>
+          <%= link_to '#' do %>
+          <%= image_tag "https://tech-master.s3.amazonaws.com/uploads/curriculums/images/Rails1-4/sample.jpg", class: "item-img" %>
+          <div class='item-info'>
+            <h3 class='item-name'>
+              商品を出品してね！
+            </h3>
+            <div class='item-price'>
+              <span>99999999円<br>(税込み)</span>
+              <div class='star-btn'>
+                <%= image_tag "imageimage.png", class:"star-icon" %>
+                <span class='star-count'>0</span>
+              </div>
+            </div>
+          </div>
+          <% end %>
+        </li>
+
+         <li class='list'>
+          <%= link_to '#' do %>
+          <%= image_tag "https://tech-master.s3.amazonaws.com/uploads/curriculums/images/Rails1-4/sample.jpg", class: "item-img" %>
+          <div class='item-info'>
+            <h3 class='item-name'>
+              商品を出品してね！
+            </h3>
+            <div class='item-price'>
+              <span>99999999円<br>(税込み)</span>
+              <div class='star-btn'>
+                <%= image_tag "imageimage.png", class:"star-icon" %>
+                <span class='star-count'>0</span>
+              </div>
+            </div>
+          </div>
+          <% end %>
+        </li>
+
+         <li class='list'>
+          <%= link_to '#' do %>
+          <%= image_tag "https://tech-master.s3.amazonaws.com/uploads/curriculums/images/Rails1-4/sample.jpg", class: "item-img" %>
+          <div class='item-info'>
+            <h3 class='item-name'>
+              商品を出品してね！
+            </h3>
+            <div class='item-price'>
+              <span>99999999円<br>(税込み)</span>
+              <div class='star-btn'>
+                <%= image_tag "imageimage.png", class:"star-icon" %>
+                <span class='star-count'>0</span>
+              </div>
+            </div>
+          </div>
+          <% end %>
+        </li>
+
+         <li class='list'>
+          <%= link_to '#' do %>
+          <%= image_tag "https://tech-master.s3.amazonaws.com/uploads/curriculums/images/Rails1-4/sample.jpg", class: "item-img" %>
+          <div class='item-info'>
+            <h3 class='item-name'>
+              商品を出品してね！
+            </h3>
+            <div class='item-price'>
+              <span>99999999円<br>(税込み)</span>
+              <div class='star-btn'>
+                <%= image_tag "imageimage.png", class:"star-icon" %>
+                <span class='star-count'>0</span>
+              </div>
+            </div>
+          </div>
+          <% end %>
+        </li>
+    </ul> 
+    </div>
+  </div>
+
+  
+
+  <div class='presentation-contents'>
+    <%= image_tag("pp-image.png", class:"pp-image") %>
+    <div class='overview'>
+      <h2>暮らしに輝きを</h2>
+      <p>JeweLinksはお客様と宝石をつなぐお手伝いをします。</p>
+      <div class='icon1-box'>
+      <%= image_tag("p-icon.png", class:"p-icon") %>
+      </div>
+    </div>   
+
+    <div class='overview-2'>
+      <h2>自分だけの「好き」が見つかる</h2>
+      <p>お手頃なものから、珍しいものまで。<br>
+      欲しいものをどこまでも探せる。
+      </p>
+      <div class='icon-box'>
+      <%= image_tag("pp-icon.png", class:"pp-icon") %>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<%= render "shared/footer" %> 
+
+<%# 高いだけじゃない！そのわけとは　宝石にはクオリティがあります　例えがカラー　産地　処理方法など　自分に合った宝石を探すことができます %>

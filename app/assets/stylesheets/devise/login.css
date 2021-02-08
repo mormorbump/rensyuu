@@ -1,0 +1,27 @@
+.new_user{
+  width: 100%;
+  min-width: 800px;
+  height: 100%;
+  background-color: #312e29;
+  display: flex;
+  justify-content: center;
+}
+
+
+.register-login-btn{
+  margin: 100px 0 30px;
+  background-color: rgb(17, 150, 139);
+  border: 2px solid  rgb(17, 150, 139);
+  color: #fff;
+  line-height: 50px;
+  width: 80%;
+  line-height: 48px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.register-login-btn:hover {
+  background-color: #fff;
+  border-color:  #dd8f19;
+  color: #dd8f19;
+}
+
